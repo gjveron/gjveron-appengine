@@ -1,0 +1,10 @@
+application: gjveron
+version: 6
+runtime: python
+api_version: 1
+
+handlers:
+- url: /crafty
+  static_dir: crafty
+- url: /.*
+  script: web.py
